@@ -5,6 +5,131 @@
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
+	.flex-wrap {
+		flex-wrap: wrap;
+	}
+
+	.flex {
+		display: flex;
+	}
+
+	*, :after, :before {
+		--tw-border-spacing-x: 0;
+		--tw-border-spacing-y: 0;
+		--tw-translate-x: 0;
+		--tw-translate-y: 0;
+		--tw-rotate: 0;
+		--tw-skew-x: 0;
+		--tw-skew-y: 0;
+		--tw-scale-x: 1;
+		--tw-scale-y: 1;
+		--tw-pan-x: ;
+		--tw-pan-y: ;
+		--tw-pinch-zoom: ;
+		--tw-scroll-snap-strictness: proximity;
+		--tw-gradient-from-position: ;
+		--tw-gradient-via-position: ;
+		--tw-gradient-to-position: ;
+		--tw-ordinal: ;
+		--tw-slashed-zero: ;
+		--tw-numeric-figure: ;
+		--tw-numeric-spacing: ;
+		--tw-numeric-fraction: ;
+		--tw-ring-inset: ;
+		--tw-ring-offset-width: 0px;
+		--tw-ring-offset-color: #fff;
+		--tw-ring-color: rgba(59, 130, 246, .5);
+		--tw-ring-offset-shadow: 0 0 #0000;
+		--tw-ring-shadow: 0 0 #0000;
+		--tw-shadow: 0 0 #0000;
+		--tw-shadow-colored: 0 0 #0000;
+		--tw-blur: ;
+		--tw-brightness: ;
+		--tw-contrast: ;
+		--tw-grayscale: ;
+		--tw-hue-rotate: ;
+		--tw-invert: ;
+		--tw-saturate: ;
+		--tw-sepia: ;
+		--tw-drop-shadow: ;
+		--tw-backdrop-blur: ;
+		--tw-backdrop-brightness: ;
+		--tw-backdrop-contrast: ;
+		--tw-backdrop-grayscale: ;
+		--tw-backdrop-hue-rotate: ;
+		--tw-backdrop-invert: ;
+		--tw-backdrop-opacity: ;
+		--tw-backdrop-saturate: ;
+		--tw-backdrop-sepia: ;
+	}
+
+	ol ul {
+		list-style-type: circle;
+		margin-block-start: 0px;
+		margin-block-end: 0px;
+	}
+
+	ul {
+		display: block;
+		list-style-type: disc;
+		margin-block-start: 1em;
+		margin-block-end: 1em;
+		margin-inline-start: 0px;
+		margin-inline-end: 0px;
+		padding-inline-start: 40px;
+	}
+
+	.mt-2 {
+		margin-top: 0.5rem;
+	}
+
+	.mr-1\.5 {
+		margin-right: 0.375rem;
+	}
+
+	*, :after, :before {
+		box-sizing: border-box;
+		border: 0 solid #e5e7eb;
+	}
+
+	.text-teal-300 {
+		--tw-text-opacity: 1;
+		color: rgb(0 0 0 0 / var(--tw-text-opacity));
+	}
+
+	.leading-5 {
+		line-height: 1.25rem;
+	}
+
+	.font-medium {
+		font-weight: 500;
+	}
+	.text-xs {
+		font-size: .75rem;
+		line-height: 1rem;
+	}
+	.py-1 {
+		padding-top: 0.25rem;
+		padding-bottom: 0.25rem;
+	}
+	.px-3 {
+		padding-left: 0.75rem;
+		padding-right: 0.75rem;
+	}
+	.bg-teal-400\/10 {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+	.rounded-full {
+		border-radius: 9999px;
+	}
+
+	.flex {
+    display: flex;
+	justify-content: center;
+	}
+	.items-center {
+		align-items: center;
+	}
 	* {box-sizing: border-box}
 	body {font-family: Verdana, sans-serif; margin:0}
 	.mySlides {display: none}
@@ -118,8 +243,10 @@
 		line-height: 1;
 	}
 
-	ol, ul {
+	.mt-2 {
 		list-style: none;
+		text-align: justify;
+		
 	}
 
 	blockquote, q {
